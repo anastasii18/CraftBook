@@ -1,4 +1,4 @@
-/// <binding BeforeBuild='clean, sass, js:scripts, concat:lib, min' />
+/// <binding AfterBuild='clean, sass, js:scripts, concat:lib, min' />
 "use strict";
  
 var gulp = require("gulp"),
